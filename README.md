@@ -1,3 +1,10 @@
+
+# Updated 2025-12-09
+
+In the file: /etc/apt/sources.list
+
+The active line needs to be changed to: deb http://legacy.raspbian.org/raspbian buster main contrib non-free rpi
+
 # Updated 2024-05-26
 
 This project seems somewhat dead, so I'm updating this fork with the details to keep it running.
@@ -107,7 +114,7 @@ sudo apt-get install git
 
 Get the source code and check it out in the current directory:  
 ```
-git clone https://github.com/RamboRogers/camplayer
+git clone https://github.com/Subrosian/camplayer
 ```
 
 Install camplayer by running the install script:  
